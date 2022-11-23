@@ -10,16 +10,16 @@ class INDIVIDUAL_RECIPE_NAME: Exile_AbstractCraftingRecipe {
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
 	components[] = {
-		{3, "CLASSNAME"},
-		{5, "CLASSNAME"},
-		{2, "CLASSNAME"}
+		{X, "CLASSNAME"},
+		{X, "CLASSNAME"},
+		{X, "CLASSNAME"}
 	};
 	tools[] = {
 		"CLASSNAME"
 	};
 	returnedItems[] = {
-		{1,"CLASSNAME"},
-		{1, "CLASSNAME"}
+		{X,"CLASSNAME"},
+		{X, "CLASSNAME"}
 	};
 	category = "CATEGORY NAME IN BRAMA COOKBOOK";
 };
