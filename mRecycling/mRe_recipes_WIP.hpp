@@ -259,8 +259,8 @@ class mReBagBunkerBig: Exile_AbstractCraftingRecipe {
 	name = "Recycling Bag Bunker Big";
 	pictureItem = "Land_BagBunker_Large_F_Kit";
 	returnedItems[] = {
-		{6,"Exile_Item_Sand"},
-		{2,"Exile_Item_MetalWire"}
+		{2,"Exile_Item_MetalWire"},
+		{6,"Exile_Item_Sand"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -279,8 +279,8 @@ class mReBagBunkerHuge: Exile_AbstractCraftingRecipe {
 	name = "Recycling Bag Bunker Huge";
 	pictureItem = "Land_Bunker_F_Kit";
 	returnedItems[] = {
-		{6,"Exile_Item_Sand"},
-		{2,"Exile_Item_MetalWire"}
+		{2,"Exile_Item_MetalWire"},
+		{6,"Exile_Item_Sand"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -299,8 +299,8 @@ class mReBagBunkerSmall: Exile_AbstractCraftingRecipe {
 	name = "Recycling Bag Bunker Small";
 	pictureItem = "Land_BagBunker_Small_F_Kit";
 	returnedItems[] = {
-		{6,"Exile_Item_Sand"},
-		{2,"Exile_Item_MetalWire"}
+		{2,"Exile_Item_MetalWire"},
+		{6,"Exile_Item_Sand"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -319,8 +319,8 @@ class mReSandBagTower: Exile_AbstractCraftingRecipe {
 	name = "Recycling Sandbag Tower";
 	pictureItem = "Land_HBarrierTower_F_Kit";
 	returnedItems[] = {
-		{4,"Exile_Item_Sand"},
-		{2,"Exile_Item_MetalWire"}
+		{2,"Exile_Item_MetalWire"},
+		{4,"Exile_Item_Sand"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -380,9 +380,9 @@ class mReConcreteDoorKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Door Kit";
 	pictureItem = "Exile_Item_ConcreteDoorKit";
 	returnedItems[] = {
-		{1,"Exile_Item_Cement"},
 		{1,"Exile_Item_Sand"},
-		{1,"Exile_Item_MetalPole"}		
+		{1,"Exile_Item_MetalPole"},
+		{1,"Exile_Item_Cement"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -401,9 +401,9 @@ class mReConcreteDoorwayKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Doorway Kit";
 	pictureItem = "Exile_Item_ConcreteDoorwayKit";
 	returnedItems[] = {
-		{1,"Exile_Item_Cement"},
 		{1,"Exile_Item_Sand"},
-		{1,"Exile_Item_MetalPole"}
+		{1,"Exile_Item_MetalPole"},
+		{1,"Exile_Item_Cement"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -422,9 +422,9 @@ class mReConcreteFloorKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Floor Kit";
 	pictureItem = "Exile_Item_ConcreteFloorKit";
 	returnedItems[] = {
-		{1,"Exile_Item_Cement"},
 		{1,"Exile_Item_Sand"},
-		{1,"Exile_Item_MetalPole"}
+		{1,"Exile_Item_MetalPole"},
+		{1,"Exile_Item_Cement"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -443,9 +443,9 @@ class mReConcreteFloorPortKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Floor Port Kit";
 	pictureItem = "Exile_Item_ConcreteFloorPortKit";
 	returnedItems[] = {
-		{1,"Exile_Item_Cement"},
 		{1,"Exile_Item_Sand"},
-		{1,"Exile_Item_MetalPole"}
+		{1,"Exile_Item_MetalPole"},
+		{1,"Exile_Item_Cement"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -464,9 +464,9 @@ class mReConcreteGateKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Gate Kit";
 	pictureItem = "Exile_Item_ConcreteGateKit";
 	returnedItems[] = {
-		{2,"Exile_Item_Cement"},
 		{2,"Exile_Item_Sand"},
-		{2,"Exile_Item_MetalPole"}
+		{2,"Exile_Item_MetalPole"},
+		{2,"Exile_Item_Cement"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -485,9 +485,9 @@ class mReConcreteStairsKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Stairs Kit";
 	pictureItem = "Exile_Item_ConcreteStairsKit";
 	returnedItems[] = {
-		{1,"Exile_Item_Cement"},
 		{1,"Exile_Item_Sand"},
-		{1,"Exile_Item_MetalPole"}
+		{1,"Exile_Item_MetalPole"},
+		{1,"Exile_Item_Cement"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -506,9 +506,9 @@ class mReConcreteSupportKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Support Kit";
 	pictureItem = "Exile_Item_ConcreteSupportKit";
 	returnedItems[] = {
-		{1,"Exile_Item_Cement"},
 		{1,"Exile_Item_Sand"},
-		{1,"Exile_Item_MetalPole"}
+		{1,"Exile_Item_MetalPole"},
+		{1,"Exile_Item_Cement"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -527,9 +527,9 @@ class mReConcreteWallKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Wall Kit";
 	pictureItem = "Exile_Item_ConcreteWallKit";
 	returnedItems[] = {
-		{1,"Exile_Item_Cement"},
 		{1,"Exile_Item_Sand"},
-		{1,"Exile_Item_MetalPole"}
+		{1,"Exile_Item_MetalPole"},
+		{1,"Exile_Item_Cement"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -548,9 +548,9 @@ class mReConcreteWindowKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Window Kit";
 	pictureItem = "Exile_Item_ConcreteWindowKit";
 	returnedItems[] = {
-		{1,"Exile_Item_Cement"},
 		{1,"Exile_Item_Sand"},
-		{1,"Exile_Item_MetalPole"}
+		{1,"Exile_Item_MetalPole"},
+		{1,"Exile_Item_Cement"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -573,9 +573,9 @@ class mReFloodLightKit: Exile_AbstractCraftingRecipe {
 	pictureItem = "Exile_Item_FloodLightKit";
 	returnedItems[] = {
 		{1,"Exile_Item_MetalPole"},
-		{1,"Exile_Item_LightBulb"},
 		{1,"Exile_Item_ExtensionCord"},
-		{1,"Exile_Item_MetalScrews"}
+		{1,"Exile_Item_MetalScrews"},
+		{1,"Exile_Item_LightBulb"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -598,9 +598,9 @@ class mReWireFenceKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Wire Fence Kit";
 	pictureItem = "Exile_Item_WireFenceKit";
 	returnedItems[] = {
-		{3,"Exile_Item_MetalWire"},
 		{2,"Exile_Item_MetalPole"},
-		{1,"Exile_Item_MetalScrews"}
+		{1,"Exile_Item_MetalScrews"},
+		{3,"Exile_Item_MetalWire"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -620,9 +620,9 @@ class mReRazorWireKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Razor Wire Kit";
 	pictureItem = "Exile_Item_RazorWireKit";
 	returnedItems[] = {
-		{2,"Exile_Item_MetalWire"},
 		{3,"Exile_Item_MetalPole"},
-		{2,"Exile_Item_MetalScrews"}
+		{2,"Exile_Item_MetalScrews"},
+		{2,"Exile_Item_MetalWire"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
