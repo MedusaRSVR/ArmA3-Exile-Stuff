@@ -620,7 +620,7 @@ class mReRazorWireKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Razor Wire Kit";
 	pictureItem = "Exile_Item_RazorWireKit";
 	returnedItems[] = {
-		{2,"Exile_Item_MetalWire"}
+		{2,"Exile_Item_MetalWire"},
 		{3,"Exile_Item_MetalPole"},
 		{2,"Exile_Item_MetalScrews"}
 		};
