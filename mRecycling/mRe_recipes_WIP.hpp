@@ -259,7 +259,8 @@ class mReBagBunkerBig: Exile_AbstractCraftingRecipe {
 	name = "Recycling Bag Bunker Big";
 	pictureItem = "Land_BagBunker_Large_F_Kit";
 	returnedItems[] = {
-		{6,"Exile_Item_Sand"}
+		{6,"Exile_Item_Sand"},
+		{2,"Exile_Item_MetalWire"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -278,7 +279,8 @@ class mReBagBunkerHuge: Exile_AbstractCraftingRecipe {
 	name = "Recycling Bag Bunker Huge";
 	pictureItem = "Land_Bunker_F_Kit";
 	returnedItems[] = {
-		{6,"Exile_Item_Sand"}
+		{6,"Exile_Item_Sand"},
+		{2,"Exile_Item_MetalWire"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
