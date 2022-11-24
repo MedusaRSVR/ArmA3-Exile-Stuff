@@ -8,6 +8,16 @@
 	- Recycling of Other-Things, like Fortification Upgades etc., into METAL POLE, METAL BOARD
 	
 	You almost get the half out of an item back - at least one item in return.
+	
+	You can test this script by adding it to your Recipe-Section in the config.cpp in your mission folder.
+	
+	class CfgCraftingRecipes {
+		
+		#include "mRecycling\mRe_recipes_WIP.hpp"
+		
+		class OTHER RECIPES STARTING HERE {};
+	};
+
 */
 
 /////////////////////////////////////////////////////
