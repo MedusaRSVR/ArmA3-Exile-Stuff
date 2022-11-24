@@ -1,0 +1,118 @@
+concrete doorway
+3 cement, 3 sand, 3 metal pole		1 cement, 1 sand, 1 metal pole
+
+concrete draw bridge
+4 cem, 4 sand, 4 met. pole, 3 junk	2 cem, 2 sand,, 2 met. pole, 1 junk
+
+concrete floor
+2 cem, 2 sand, 2 metal pole		1 cem, 1 sand, 1 metal pole
+
+concrete floor port
+3 cem, 3 sand, 3 met. pole		1 cem, 1 sand, 1 metal pole
+
+concrete floor port samll
+3c, 2s, 2mp				1c, 1s, 1mp
+
+concrete gate
+4c, 4s, 4mp				2c, 2s, 2mp
+
+conc. ladder hatch
+3c, 2s, 2mp, 3jm			1c, 1s, 1mp, 1jm
+
+conc. stairs
+1c, 1s, 1mp				1c, 1s, 1mp
+
+conc. support
+1c, 1s, 1mp				1c, 1s, 1mp
+
+conc. wall
+2c, 2s, 2mp				1c, 1s, 1mp
+
+fortifi. upgrade
+2mp, 4mb				1mp, 2mb
+
+h-barrier 5
+3 sandbag long, 2 met. wire		?s, 1 met. wire
+
+metal board
+2 jm					1 jm
+
+metal hedgehog
+4 mp					2mp
+
+metal ladder
+6jm					3jm
+
+metal ladder dbl
+2 metal ladder				6jm
+
+metal pole
+4jm					2jm
+
+portable gen.
+4mb, 1 fuel c., 1 ex. cord		2mb, -, 1 ex. cord
+
+repairkit concr.
+4c, 2s, 1 water can., 1 fuel		2c, 1s, -, -
+
+repairkit metal
+4 mb					2mb
+
+repairkit wood
+4 wood plank				2 wood plank
+
+sandbags kit corner
+3 sand					1 sand
+
+sandbags kit long
+6 sand					3 sand
+
+storge crate
+5 wood plank				2 wood plank
+
+water barel kit
+20 empty plastic bottle			---
+
+wire fence kit
+4mp, 6 mw, 1 metal screws		2mp, 3mw, 1 screws
+
+
+wood doorway
+6 planks				3 planks
+
+wood door bridge
+8 planks, 1 jm, 1 screws		4 planks, 1jm, 1 screws
+
+wood floor
+4 planks				2 planks
+
+wood floor port
+6 planks				3 planks
+
+wood floor port small
+6 planks				3 planks
+
+wood gate
+8 planks				4 planks
+
+wood ladder
+6 planks				3 planks
+
+wood ladder hatch
+6 planks, 3 jm				3 planks, 1 jm
+
+wood stairs
+6 plansk				3 planks
+
+wood support
+6 planks				3 planks
+
+wood wall
+4 planks				2 planks
+
+wood 1/2 wall
+2 planks				1 plank
+
+wood window
+6 planks				3 planks
+
