@@ -314,6 +314,26 @@ class mReBagBunkerSmall: Exile_AbstractCraftingRecipe {
 	category = "Recycling Sand";
 };
 
+// Exile_Item_HBarrier5Kit
+class mReHBarrier5: Exile_AbstractCraftingRecipe {
+	name = "Recycling H-Barrier (5)";
+	pictureItem = "Exile_Item_HBarrier5Kit";
+	returnedItems[] = {
+		{2,"Exile_Item_MetalWire"},
+		{4,"Exile_Item_Sand"}
+		};
+	requiresFire = 0;
+	requiredInteractionModelGroup = "WorkBench";
+	components[] = {
+		{1, "Exile_Item_HBarrier5Kit"}
+		};
+	tools[] = {
+		"Exile_Item_Pliers"
+		};
+	requiresConcreteMixer = 0;
+	category = "Recycling Sand";
+};
+
 // Land_HBarrierTower_F_Kit
 class mReSandBagTower: Exile_AbstractCraftingRecipe {
 	name = "Recycling Sandbag Tower";
