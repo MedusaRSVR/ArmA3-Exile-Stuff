@@ -9,7 +9,7 @@
 	
 	You almost get the half out of an item back - at least one item in return.
 	
-	You can test this script by adding it to your Recipe-Section in the config.cpp in your mission folder.
+	You can test this script by adding it to your Recipe-Section of the config.cpp in your mission folder.
 	
 	class CfgCraftingRecipes {
 		
