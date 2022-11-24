@@ -50,6 +50,7 @@ class INDIVIDUAL_RECIPE_NAME: Exile_AbstractCraftingRecipe {
 - "CleanWaterSource"
 - "WaterSource"
 - "FuelSource"
+I know of some more but can't remember what variable they had. "WieldingTrolley" or so. I need a hint ^^
 
 - Options for RwG Addon:
 - "WorkBench_Metal"
