@@ -5,7 +5,11 @@
 	- Recycling of Concrete-Things, like Concrete-Walls, Concrete-Floors etc., into CEMENT
 	- Recycling of Wire-Things, like Wire-Fence or Razor-Wire etc., into METAL WIRE
 	- Recycling of Electronic-Things, like Flood-Light etc., into METAL POLE, LIGHT BULB, EXTENSION CORD
+	- Recycling of Other-Things, like Fortification Upgades etc., into METAL POLE, METAL BOARD
+	
+	You almost get the half out of an item back - at least one item in return.
 */
+
 /////////////////////////////////////////////////////
 // RECYCLING INTO PLANKS
 /////////////////////////////////////////////////////
@@ -52,7 +56,7 @@ class mReWoodFloorKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Wood Floor Kit";
 	pictureItem = "Exile_Item_WoodFloorKit";
 	returnedItems[] = {
-		{3,"Exile_Item_WoodPlank"}
+		{2,"Exile_Item_WoodPlank"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -71,7 +75,7 @@ class mReWoodGateKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Wood Gate Kit";
 	pictureItem = "Exile_Item_WoodGateKit";
 	returnedItems[] = {
-		{3,"Exile_Item_WoodPlank"}
+		{4,"Exile_Item_WoodPlank"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -128,7 +132,7 @@ class mReWoodHalfWallKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Wood Half Wall Kit";
 	pictureItem = "Exile_Item_WoodWallHalfKit";
 	returnedItems[] = {
-		{3,"Exile_Item_WoodPlank"}
+		{1,"Exile_Item_WoodPlank"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -147,7 +151,7 @@ class mReWoodWallKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Wood Wall Kit";
 	pictureItem = "Exile_Item_WoodWallKit";
 	returnedItems[] = {
-		{3,"Exile_Item_WoodPlank"}
+		{2,"Exile_Item_WoodPlank"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -207,7 +211,7 @@ class mReSandbagsKitLong: Exile_AbstractCraftingRecipe {
 	name = "Recycling Sandbags Kit Long";
 	pictureItem = "Exile_Item_SandBagsKit_Long";
 	returnedItems[] = {
-		{2,"Exile_Item_Sand"}
+		{3,"Exile_Item_Sand"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -226,7 +230,7 @@ class mReSandbagsKitCorner: Exile_AbstractCraftingRecipe {
 	name = "Recycling Sandbags Kit Corner";
 	pictureItem = "Exile_Item_SandBagsKit_Corner";
 	returnedItems[] = {
-		{2,"Exile_Item_Sand"}
+		{1,"Exile_Item_Sand"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -245,7 +249,7 @@ class mReBagBunkerBig: Exile_AbstractCraftingRecipe {
 	name = "Recycling Bag Bunker Big";
 	pictureItem = "Land_BagBunker_Large_F_Kit";
 	returnedItems[] = {
-		{4,"Exile_Item_Sand"}
+		{6,"Exile_Item_Sand"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -264,7 +268,7 @@ class mReBagBunkerHuge: Exile_AbstractCraftingRecipe {
 	name = "Recycling Bag Bunker Huge";
 	pictureItem = "Land_Bunker_F_Kit";
 	returnedItems[] = {
-		{4,"Exile_Item_Sand"}
+		{6,"Exile_Item_Sand"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -283,7 +287,8 @@ class mReBagBunkerSmall: Exile_AbstractCraftingRecipe {
 	name = "Recycling Bag Bunker Small";
 	pictureItem = "Land_BagBunker_Small_F_Kit";
 	returnedItems[] = {
-		{3,"Exile_Item_Sand"}
+		{6,"Exile_Item_Sand"},
+		{2,"Exile_Item_MetalWire"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -302,7 +307,8 @@ class mReSandBagTower: Exile_AbstractCraftingRecipe {
 	name = "Recycling Sandbag Tower";
 	pictureItem = "Land_HBarrierTower_F_Kit";
 	returnedItems[] = {
-		{4,"Exile_Item_Sand"}
+		{4,"Exile_Item_Sand"},
+		{2,"Exile_Item_MetalWire"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -321,7 +327,7 @@ class mReSandBagFenceLong: Exile_AbstractCraftingRecipe {
 	name = "Recycling Sandbag Fence Long";
 	pictureItem = "Land_BagFence_Long_F_Kit";
 	returnedItems[] = {
-		{2,"Exile_Item_Sand"}
+		{3,"Exile_Item_Sand"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -340,7 +346,7 @@ class mReSandBagFenceCorner: Exile_AbstractCraftingRecipe {
 	name = "Recycling Sandbag Fence Corner";
 	pictureItem = "Land_BagFence_Corner_F_Kit";
 	returnedItems[] = {
-		{2,"Exile_Item_Sand"}
+		{1,"Exile_Item_Sand"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -362,7 +368,9 @@ class mReConcreteDoorKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Door Kit";
 	pictureItem = "Exile_Item_ConcreteDoorKit";
 	returnedItems[] = {
-		{2,"Exile_Item_Cement"}
+		{1,"Exile_Item_Cement"},
+		{1,"Exile_Item_Sand"},
+		{1,"Exile_Item_MetalPole"}		
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -381,7 +389,9 @@ class mReConcreteDoorwayKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Doorway Kit";
 	pictureItem = "Exile_Item_ConcreteDoorwayKit";
 	returnedItems[] = {
-		{2,"Exile_Item_Cement"}
+		{1,"Exile_Item_Cement"},
+		{1,"Exile_Item_Sand"},
+		{1,"Exile_Item_MetalPole"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -400,7 +410,9 @@ class mReConcreteFloorKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Floor Kit";
 	pictureItem = "Exile_Item_ConcreteFloorKit";
 	returnedItems[] = {
-		{2,"Exile_Item_Cement"}
+		{1,"Exile_Item_Cement"},
+		{1,"Exile_Item_Sand"},
+		{1,"Exile_Item_MetalPole"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -419,7 +431,9 @@ class mReConcreteFloorPortKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Floor Port Kit";
 	pictureItem = "Exile_Item_ConcreteFloorPortKit";
 	returnedItems[] = {
-		{2,"Exile_Item_Cement"}
+		{1,"Exile_Item_Cement"},
+		{1,"Exile_Item_Sand"},
+		{1,"Exile_Item_MetalPole"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -438,7 +452,9 @@ class mReConcreteGateKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Gate Kit";
 	pictureItem = "Exile_Item_ConcreteGateKit";
 	returnedItems[] = {
-		{2,"Exile_Item_Cement"}
+		{2,"Exile_Item_Cement"},
+		{2,"Exile_Item_Sand"},
+		{2,"Exile_Item_MetalPole"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -457,7 +473,9 @@ class mReConcreteStairsKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Stairs Kit";
 	pictureItem = "Exile_Item_ConcreteStairsKit";
 	returnedItems[] = {
-		{2,"Exile_Item_Cement"}
+		{1,"Exile_Item_Cement"},
+		{1,"Exile_Item_Sand"},
+		{1,"Exile_Item_MetalPole"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -476,7 +494,9 @@ class mReConcreteSupportKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Support Kit";
 	pictureItem = "Exile_Item_ConcreteSupportKit";
 	returnedItems[] = {
-		{2,"Exile_Item_Cement"}
+		{1,"Exile_Item_Cement"},
+		{1,"Exile_Item_Sand"},
+		{1,"Exile_Item_MetalPole"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -495,7 +515,9 @@ class mReConcreteWallKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Wall Kit";
 	pictureItem = "Exile_Item_ConcreteWallKit";
 	returnedItems[] = {
-		{2,"Exile_Item_Cement"}
+		{1,"Exile_Item_Cement"},
+		{1,"Exile_Item_Sand"},
+		{1,"Exile_Item_MetalPole"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -514,7 +536,9 @@ class mReConcreteWindowKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Concrete Window Kit";
 	pictureItem = "Exile_Item_ConcreteWindowKit";
 	returnedItems[] = {
-		{2,"Exile_Item_Cement"}
+		{1,"Exile_Item_Cement"},
+		{1,"Exile_Item_Sand"},
+		{1,"Exile_Item_MetalPole"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -538,7 +562,8 @@ class mReFloodLightKit: Exile_AbstractCraftingRecipe {
 	returnedItems[] = {
 		{1,"Exile_Item_MetalPole"},
 		{1,"Exile_Item_LightBulb"},
-		{1,"Exile_Item_ExtensionCord"}
+		{1,"Exile_Item_ExtensionCord"},
+		{1,"Exile_Item_MetalScrews"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -561,8 +586,9 @@ class mReWireFenceKit: Exile_AbstractCraftingRecipe {
 	name = "Recycling Wire Fence Kit";
 	pictureItem = "Exile_Item_WireFenceKit";
 	returnedItems[] = {
-		{2,"Exile_Item_MetalWire"},
-		{2,"Exile_Item_MetalPole"}
+		{3,"Exile_Item_MetalWire"},
+		{2,"Exile_Item_MetalPole"},
+		{1,"Exile_Item_MetalScrews"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
@@ -582,6 +608,8 @@ class mReRazorWireKit: Exile_AbstractCraftingRecipe {
 	pictureItem = "Exile_Item_RazorWireKit";
 	returnedItems[] = {
 		{2,"Exile_Item_MetalWire"}
+		{3,"Exile_Item_MetalPole"},
+		{2,"Exile_Item_MetalScrews"}
 		};
 	requiresFire = 0;
 	requiredInteractionModelGroup = "WorkBench";
