@@ -596,7 +596,8 @@ class mReWireFenceKit: Exile_AbstractCraftingRecipe {
 		{1, "Exile_Item_WireFenceKit"}
 		};
 	tools[] = {
-		"Exile_Item_Pliers"
+		"Exile_Item_Pliers",
+		"Exile_Item_Screwdriver"
 		};
 	requiresConcreteMixer = 0;
 	category = "Recycling Wire";
@@ -617,7 +618,8 @@ class mReRazorWireKit: Exile_AbstractCraftingRecipe {
 		{1, "Exile_Item_RazorWireKit"}
 		};
 	tools[] = {
-		"Exile_Item_Pliers"
+		"Exile_Item_Pliers",
+		"Exile_Item_Screwdriver"
 		};
 	requiresConcreteMixer = 0;
 	category = "Recycling Wire";
