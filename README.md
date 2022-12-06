@@ -5,3 +5,4 @@ Collection of *.PBOs, Scripts & Snippets to use with ArmA 3 Exile Mod.
 
 - ArmA 3 Exile Recipe Template - A template to add recipes into the game
 - mRecycling - Recycling-Recipes for ArmA 3 Exile - Work In Progress
+- RwG Exile Addon Recipes - Fixes and my additions
