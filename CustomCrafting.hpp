@@ -17,6 +17,7 @@
 		returnedItems[] = {
 			{1, "RwG_Item_Wooden_Beams"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Full Wood";
 	};
 	// WOOD DOOR NO LOCK NO WINDOW KIT RECIPE
@@ -32,6 +33,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Door_nLock_nWin_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Full Wood";
 	};
 	// WOOD DOOR NO LOCK WITH WINDOW KIT RECIPE
@@ -47,6 +49,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Door_nLock_Win_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Full Wood";
 	};
 	// WOOD DOOR WITH LOCK NO WINDOW KIT RECIPE
@@ -62,6 +65,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Door_Lock_nWin_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Full Wood";
 	};
 	// WOOD DOOR WITH LOCK AND WINDOW KIT RECIPE
@@ -77,6 +81,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Door_Lock_Win_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Full Wood";
 	};
 	// WOOD WINDOW TIP UP KIT RECIPE
@@ -94,6 +99,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Window_TipUp_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Full Wood";
 	};
 	// WOOD FLOOR KIT
@@ -110,6 +116,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Floor_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Full Wood";
 	};
 	
@@ -146,6 +153,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Doorway_Frame_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Wood";
 	};
 	// WOOD WINDOW FRAME KIT RECIPE
@@ -159,6 +167,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Window_Frame_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Wood";
 	};
 	// WOOD GATE FRAME KIT RECIPE
@@ -172,6 +181,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Gate_Frame_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Wood";
 	};
 	// WOOD GATE FRAME SWING KIT RECIPE
@@ -187,6 +197,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Gate_Frame_Swing_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Wood";
 	};
 	// WOOD DOUBLE GATE FRAME KIT RECIPE
@@ -200,6 +211,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_DoubleGate_Frame_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Wood";
 	};
 	// WOOD DOUBLE GATE FRAME SWING KIT RECIPE
@@ -215,6 +227,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_DoubleGate_Frame_Swing_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Wood";
 	};
 	// WOOD FLOOR FRAME KIT RECIPE
@@ -228,6 +241,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Floor_Frame_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Wood";
 	};
 	// WOOD FLOOR PORT FRAME KIT RECIPE
@@ -241,6 +255,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_FloorPort_Frame_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Wood";
 	};
 	// WOOD GRID WALL FRAME KIT RECIPE
@@ -254,6 +269,7 @@
 		returnedItems[] = {
 			{1, "RwG_WoodGrid_Wall_Frame_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Wood";
 	};
 	// WOOD GRID DOORWAY FRAME KIT RECIPE
@@ -267,6 +283,7 @@
 		returnedItems[] = {
 			{1, "RwG_WoodGrid_Doorway_Frame_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Wood";
 	};
 
@@ -285,7 +302,8 @@
 		returnedItems[] = 
 		{
 			{1, "RwG_Item_WoodPlanks_Upgrade"}
-		}; 
+		};
+		requiredInteractionModelGroup = "WorkBench";		
 		category = "RwG Addon - Frame Upgrade";
 	};
 	// WOOD WALL FRAME KIT UPGRADE RECIPE 
@@ -302,6 +320,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Wall_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Upgrade";
 	};	
 	// WOOD DOORWAY FRAME KIT UPGRADE RECIPE
@@ -318,6 +337,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Doorway_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Upgrade";
 	};
 	
@@ -347,6 +367,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Window_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Upgrade";
 	};
 	// WOOD WINDOW TIPUP FRAME KIT UPGRADE RECIPE
@@ -363,6 +384,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Window_TipUp_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Upgrade";
 	};
 	// WOOD GATE FRAME SWING KIT UPGRADE RECIPE
@@ -379,6 +401,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Gate_Swing_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Upgrade";
 	};
 	// WOOD GATE FRAME DOUBLE SWING KIT UPGRADE RECIPE
@@ -395,6 +418,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_DoubleGate_Swing_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Upgrade";
 	};
 	// WOOD FLOOR FRAME KIT UPGRADE RECIPE
@@ -411,6 +435,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Floor_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Upgrade";
 	};
 	// WOOD FLOOR PORT FRAME KIT UPGRADE RECIPE
@@ -427,6 +452,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_FloorPort_Kit"}
 		};
+		requiredInteractionModelGroup = "WorkBench";
 		category = "RwG Addon - Frame Upgrade";
 	};
 
@@ -542,7 +568,7 @@
 		name = "Box Of Nails";
 		pictureItem = "RwG_Item_Box_Of_Nails"; 
 		returnedItems[] = {
-			{1, "RwG_Item_Box_Of_Nails"}
+			{4, "RwG_Item_Box_Of_Nails"}
 		};
 		components[] = {
 			{1, "Exile_Item_JunkMetal"}
