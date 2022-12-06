@@ -111,6 +111,7 @@
 			{1, "RwG_Wood_Floor_Kit"}
 		};
 		category = "RwG Addon - Full Wood";
+	};
 	
 	// ###############################
 	// WOOD FRAME CONSTRUCTION SECTION
