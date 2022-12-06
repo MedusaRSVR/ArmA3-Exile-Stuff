@@ -146,7 +146,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_Doorway_Frame_Kit"}
 		};
-		category = "RwG Addon";
+		category = "RwG Addon - Frame Wood";
 	};
 	// WOOD WINDOW FRAME KIT RECIPE
 	class Wood_Window_Frame_Kit_Recipe: Exile_AbstractCraftingRecipe {
@@ -241,7 +241,7 @@
 		returnedItems[] = {
 			{1, "RwG_Wood_FloorPort_Frame_Kit"}
 		};
-		category = "RwG Addon";
+		category = "RwG Addon - Frame Wood";
 	};
 	// WOOD GRID WALL FRAME KIT RECIPE
 	class WoodGrid_Wall_Frame_Kit_Recipe: Exile_AbstractCraftingRecipe {
@@ -352,7 +352,7 @@
 	// WOOD WINDOW TIPUP FRAME KIT UPGRADE RECIPE
 	class Wood_Window_Frame_TipUp_Kit_Upgrade_Recipe: Exile_AbstractCraftingRecipe {
 		name = "Wood-Window Frame TipUp Kit Upgrade";
-		pictureItem = "RwG_Wood_Window_WipUp_Kit"; 
+		pictureItem = "RwG_Wood_Window_TipUp_Kit"; 
 		components[] = {
 			{1, "RwG_Wood_Window_Frame_Kit"},
 			{1, "RwG_Item_WoodPlanks_Upgrade"}
@@ -361,7 +361,7 @@
 			"Exile_Item_Hammer"
 		};
 		returnedItems[] = {
-			{1, "RwG_Wood_Window_WipUp_Kit"}
+			{1, "RwG_Wood_Window_TipUp_Kit"}
 		};
 		category = "RwG Addon - Frame Upgrade";
 	};
