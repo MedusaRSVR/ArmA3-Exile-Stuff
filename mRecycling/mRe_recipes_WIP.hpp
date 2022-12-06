@@ -9,7 +9,7 @@
 	
 	You almost get the half out of an item back - at least one item in return.
 	
-	You can test this script by adding it to your Recipe-Section of the config.cpp in your mission folder.
+	You can test this script by adding it to your Recipe-Section in the config.cpp in your mission folder.
 	
 	class CfgCraftingRecipes {
 		
@@ -72,6 +72,25 @@ class mReWoodFloorKit: Exile_AbstractCraftingRecipe {
 	requiredInteractionModelGroup = "WorkBench";
 	components[] = {
 		{1, "Exile_Item_WoodFloorKit"}
+		};
+	tools[] = {
+		"Exile_Item_Handsaw"
+		};
+	requiresConcreteMixer = 0;
+	category = "Recycling Wood";
+};
+
+// Exile_Item_WoodFloorPortKit
+class mReWoodFloorPortKit: Exile_AbstractCraftingRecipe {
+	name = "Recycling Wood Floor Port Kit";
+	pictureItem = "Exile_Item_WoodFloorPortKit";
+	returnedItems[] = {
+		{2,"Exile_Item_WoodPlank"}
+		};
+	requiresFire = 0;
+	requiredInteractionModelGroup = "WorkBench";
+	components[] = {
+		{1, "Exile_Item_WoodFloorPortKit"}
 		};
 	tools[] = {
 		"Exile_Item_Handsaw"
